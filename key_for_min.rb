@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
 name_hash.collect do |key, value|
   if value < val then 
     retkey = key
+    val = value
   end
-val = value
 puts retkey
 puts val
 end
