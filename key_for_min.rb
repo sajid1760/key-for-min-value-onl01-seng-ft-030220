@@ -16,4 +16,4 @@ end
 puts retkey
 end
 
-key_for_min_value({:blake => 100, :ashley => 50, :adam => 170})
+key_for_min_value({:blake => 100, :ashley => 50, :adam => 17})
