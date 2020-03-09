@@ -9,13 +9,11 @@ name_hash.collect do |key, value|
     retkey = key
     val = value
   end
-puts retkey
-puts val
 end
 if name_hash.empty? then
   retkey = NIL
 end
-puts retkey
+retkey
 end
 
-key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
+#key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
