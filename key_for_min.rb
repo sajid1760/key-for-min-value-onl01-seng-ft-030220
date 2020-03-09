@@ -3,10 +3,12 @@
 
 def key_for_min_value(name_hash)
   val = 110000000000
+  retkey = ""
 name_hash.collect do |key, value|
   if value < val then 
-    key
+    retkey = key
   end
 val = value
 end
+retkey
 end
