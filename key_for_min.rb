@@ -13,5 +13,7 @@ end
 if name_hash.empty? then
   retkey = NIL
 end
-retkey
+puts retkey
 end
+
+key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
