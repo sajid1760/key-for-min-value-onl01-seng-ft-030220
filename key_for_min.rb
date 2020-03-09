@@ -9,6 +9,7 @@ name_hash.collect do |key, value|
     retkey = key
   end
 val = value
+puts retkey
 end
 if name_hash.empty? then
   retkey = NIL
